@@ -1,0 +1,24 @@
+{
+  project : {
+    name : 'foldable',
+    version : '1.0.0',
+    author : 'josuigoa',
+
+    app : {
+      name : 'foldable',
+      package : 'test.josuigoa.fold',
+      main : 'Main'
+    },
+
+    build : {
+      dependencies : {
+        luxe : '*',
+      }
+    },
+
+    files : {
+      config : 'config.json',
+      assets : 'assets/'
+    }
+  }
+}
