@@ -88,7 +88,7 @@ class Foldable extends Entity {
 		is_unfolded = !is_folded;
 		folding_value = (is_folded) ? folded_percentage : unfolded_percentage;
 		
-		folding_line_shader = Luxe.loadShader("assets/shaders/fold_shadow.frag");
+		folding_line_shader = Luxe.loadShader("assets/fold_shadow.frag");
 
 		if (folding_line_shader != null) {
 			folding_line_shader.set_float("line_center", .5);

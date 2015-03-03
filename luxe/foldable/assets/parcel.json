@@ -1,0 +1,9 @@
+{
+	"textures":[
+		{ "id" : "assets/luxe.png"},
+		{ "id" : "assets/bluxe.png"}
+	],
+	"shaders":[
+		{ "id" : "assets/fold_shadow.frag"}
+	]
+}
