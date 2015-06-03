@@ -1,2 +1,2 @@
 ##Screenshot
-![](/normal_mapping.gif)
+![](https://github.com/josuigoa/experiments/blob/master/luxe/normal_mapping/normal_mapping.gif)
