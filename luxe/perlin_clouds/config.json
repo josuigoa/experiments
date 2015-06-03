@@ -1,0 +1,7 @@
+{
+	"perlin_vel" : 200,
+	"perlin_max_alpha" : 0.58,
+	"sine_add" : 0.15,
+	"wave_count" : 100,
+	"wave_width" : 0.01
+}

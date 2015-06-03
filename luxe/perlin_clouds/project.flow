@@ -1,0 +1,32 @@
+{
+  luxe:{
+    window: {
+		width:564,
+		height:800,
+		title:'perlin_clouds',
+		fullscreen:false,
+		resizable:false,
+		borderless:false
+    }
+  },
+  project : {
+    name : 'perlin_clouds',
+    version : '1.0.0',
+    author : 'josuigoa',
+
+    app : {
+      name : 'perlin_clouds',
+      package : 'test.josuigoa.clouds',
+    },
+
+    build : {
+      dependencies : {
+        luxe : '*',
+      },
+    },
+    files : {
+      config : 'config.json',
+      assets : 'assets/'
+    }
+  }
+}
