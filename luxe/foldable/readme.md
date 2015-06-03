@@ -1,2 +1,2 @@
 ##Screenshot
-![](/folding_paper.gif)
+![](https://github.com/josuigoa/experiments/blob/master/luxe/foldable/folding_paper.gif)
