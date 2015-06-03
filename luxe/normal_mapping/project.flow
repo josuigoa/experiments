@@ -1,0 +1,32 @@
+{
+  luxe:{
+    window: {
+		width:512,
+		height:512,
+		title:'normal_mapping',
+		fullscreen:false,
+		resizable:false,
+		borderless:false
+    }
+  },
+  project : {
+    name : 'normal_mapping',
+    version : '1.0.0',
+    author : 'josuigoa',
+
+    app : {
+      name : 'normal_mapping',
+      package : 'test.josuigoa.normalmapping',
+    },
+
+    build : {
+      dependencies : {
+        luxe : '*',
+      },
+    },
+    files : {
+      config : 'config.json',
+      assets : 'assets/'
+    }
+  }
+}
