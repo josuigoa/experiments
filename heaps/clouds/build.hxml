@@ -1,0 +1,8 @@
+-lib heaps
+-main Main
+# -js clouds.js
+
+-D shader_debug_dump
+-lib hlsdl
+-hl main.hl
+-cmd mv main.hl /home/josu/Deskargak/hl1.5/win

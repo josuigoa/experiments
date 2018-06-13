@@ -37,7 +37,10 @@ class Main extends hxd.App {
 
 		// add texture coordinates
 		prim.addUVs();
-		var mat = new h3d.mat.MeshMaterial(tex);
+		var mat = new h3d.mat.Material(tex);
+		// GARRANTZITSUA!!
+		// irudiaren alpha kanala aplikatzeko, bertzenaz alpha dena beltza ikusiko da
+		mat.blendMode = Alpha;
 		var mesh = new h3d.scene.Mesh(prim, mat, s3d);
 		mesh.x = -19;
 		mesh.y = 0;

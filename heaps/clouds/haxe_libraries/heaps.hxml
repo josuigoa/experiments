@@ -1,0 +1,6 @@
+# @run: haxelib run-dir heaps ${HAXESHIM_LIBCACHE}/heaps/1.2.0/github/21e7cef3ced361ae317638a5bc0d2d8d9fc4b822
+# @install: lix --silent download "https://github.com/heapsio/heaps/archive/21e7cef3ced361ae317638a5bc0d2d8d9fc4b822.tar.gz" into heaps/1.2.0/github/21e7cef3ced361ae317638a5bc0d2d8d9fc4b822
+-D heaps=1.2.0
+-cp ${HAXESHIM_LIBCACHE}/heaps/1.2.0/github/21e7cef3ced361ae317638a5bc0d2d8d9fc4b822/
+
+-lib format
